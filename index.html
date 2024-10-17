@@ -1,102 +1,84 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conecta Serviços de TI</title>
+    <title>Meu Site</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-   
     <header>
-        <h1>Conecta👩💻 Serviços de TI</h1>
-       <img src="https://media.tenor.com/TsPFwJivoPYAAAAM/discord.gif">
-        <nav>
-            <ul>
-              
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#galeria">Galeria</a></li>
-                <li><a href="#contato">Contato</a></li>
-               
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Olá, me chamo Nathália Santos</h1>
+            <p>Estudante de Técnico em Informática</p>
+            <a href="#contato" class="cta">Entre em Contato</a>
+        </div>
     </header>
 
-    <section id="home">
-    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="sobre">
+            <h2>Apresentação</h2>
+            <img src="https://i.pinimg.com/736x/19/f4/79/19f4793df63e90c332e564fc67f80054.jpg" alt="Sua Foto" class="profile-pic">
+            <P>Sou estudante de Técnico em Informática e adoro a área de Webdesign e programação, especialmente com HTML e CSS. Estou sempre buscando aprender novas técnicas e tendências para criar sites modernos e funcionais.
+</p>
+        </section>
+
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <div class="service">
+                <h3>Desenvolvimento Web</h3>
+                <p>Criação de sites responsivos e otimizados.</p>
+            </div>
+            <div class="service">
+                <h3>Instalação de Sistemas Operacionais</h3>
+                <p>Windows, Linux, MacOS</p>
+            </div>
+            <div class="service">
+                <h3>Instalação e configuração de sistemas operacionais, aplicativos e drivers.</h3>
+                <p>Auxílio em problemas de software e hardware</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+     <section id="redes-sociais">
+    <h2>Minhas Redes Sociais</h2>
+    <div class="social-container">
         
-    </section>
-
-    <section id="sobre">
-        <h2><strong>Apresentação</h2>
-        <p>No  Conecta👩🏫 TI, entendemos que a tecnologia é uma parte essencial do dia a dia, mas também pode apresentar desafios inesperados. Nossa missão é oferecer soluções rápidas e eficazes para que você possa se concentrar no que realmente importa.</p>
-    </section>
-
-<section id="servicos">
-        <h2>Serviços</h2>
-        <div class="servico">
-            <img src="https://miro.medium.com/v2/resize:fit:754/0*fsTg5efsd8glPp9Z.png" alt="Instalação de Sistemas Operacionais">
-            <h3>Windows, Linux, MacOS
-        </div>
-        <div class="servico">
-            <img src="https://4feel.com.br/wp-content/uploads/2023/03/instalacao-e-configuracao-de-software-01-1024x512.jpg" alt="Instalação de Software">
-            <h3>Instalação e configuração de sistemas operacionais, aplicativos e drivers.</h3>
-           
-        </div>
-        <div class="servico">
-            <img src="https://img.olx.com.br/images/41/412421205244731.webp" alt="Reparo de Hardware">
-            <h3>Diagnóstico e conserto de componentes físicos, como placas-mãe, discos rígidos, e periféricos (impressoras, teclados, etc.)</h3>
-            
-        </div>
-           
-  
-    </section>
-
-
-
-
-
-    <section id="galeria">
-        <h2>Galeria</h2>
-   
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwMI8KpR_EEoBNbWLvJzBC5LyPOszEBdBlu_oWxvQmBzxI1GjEks50T8WqmkLofEa5pz0&usqp=CAU">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL2_P3f4HMX5z9sSGuL9sohKZ3GffrVgP0wQ&s">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROpY1PJK6vOmoDBtcywcFMa4MKMnj08_1D6VEIBn83qVF2c1DTc_jfCixBOdQTBMw9-yQ&usqp=CAU">
-        <img src="https://viacertacursos.com.br/wp-content/uploads/2021/06/hardware.jpg">
-        
-       
-    </section>
-
-    <section id="contato">
-        <h2>Contato</h2>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; Conecta👩💻 Serviços de TI - Todos os direitos reservados.</p>
-    </footer>
-<div class="redes-sociais">
-        <a href="https://www.facebook.com" target="_blank">
-            <img src="face.jpg" alt="Facebook" class="icone-rede">
+        <a href="https://www.instagram.com/seu-perfil" target="_blank" class="social-link">
+            <img src="https://img.freepik.com/vetores-premium/vector-do-logotipo-do-instagram_768467-330.jpg" alt="Instagram" class="social-icon"> Instagram
         </a>
-        <a href="https://www.instagram.com" target="_blank">
-            <img src="inst.jpg" alt="Instagram" class="icone-rede">
+        <a href="https://twitter.com/seu-perfil" target="_blank" class="social-link">
+            <img src="https://agriwaste.com/wp-content/uploads/2023/12/xLogo.png" alt="X" class="social-icon"> X
         </a>
-        <a href="https://www.twitter.com" target="_blank">
-            <img src="x.jpg" alt="Twitter" class="icone-rede">
+        <a href="mailto:nathsantos@gmail.com" class="social-link">
+            <img src="https://i.pinimg.com/originals/88/e1/4c/88e14cc7e7fcbb0e0e09de26cec86c61.png" alt="Gmail" class="social-icon"> Gmail
         </a>
     </div>
-
-
-
+</section>
+<section id="agradecimento">
+    <h2>Obrigado por sua visita!</h2>
+    <img src="https://media.tenor.com/-ffhKb11Ss4AAAAM/bt21-clouds.gif" alt="Agradecimento" class="thank-you-image">
+</section>
     
 </body>
 </html>
+
