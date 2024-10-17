@@ -109,21 +109,53 @@ form button:hover {
     background: #4a2272;
 }
 
-.socials {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.socials a {
-    margin: 0 10px;
-    color: #5c2e91;;
-    font-size: 1.5em;
-    text-decoration: none;
-}
-
-footer {
+#redes-sociais {
     text-align: center;
     padding: 20px;
-    background: #333;
-    color: white;
+    background: #f4f4f4;/
+    border-radius: 8px;
+    margin: 20px 0;
 }
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #5c2e91; 
+    font-size: 1.5em; 
+    margin: 10px 0;
+    display: flex;
+    align-items: center; /
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #4a2272; 
+}
+
+.social-icon {
+    width: 24px; 
+    height: 24px;
+    margin-right: 8px;
+
+}
+#agradecimento {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    margin: 20px 0;
+}
+
+.thank-you-image {
+    max-width: 200%;
+    height: auto;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
